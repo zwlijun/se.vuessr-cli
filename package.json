@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "se.vuessr command-line",
   "main": "index.js",
+  "bin": {
+    "vuessr": "./bin/vuessr"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
