@@ -1,0 +1,33 @@
+#!/usr/bin/env node
+
+const program = require("commander");
+
+process.title = "SE.VUESSR CLI";
+
+const v = require("../package.json").version;
+
+program
+    .version(v)
+    .usage("<command> <options>");
+
+program
+    .command("init [version]")
+    .description("create a new se.vuessr project")
+    .option("-n, --project-name [name]", "new project name")
+    .option("-p, --project-path [path]", "new project store path")
+    .action(function(version, options){
+        let name = options.projectName;
+        let path = options.projectPath;
+
+        require("../cmd/init").exec(version, name, path);
+    }).on("--help", function() {
+        console.log("  Examples:");
+        console.log();
+        console.log("    $ vuessr init");
+        console.log("    $ vuessr init [version]");
+        console.log("    $ vuessr init [version] -n [poject-name]");
+        console.log("    $ vuessr init [version] -n [poject-name] -p [project-path]");
+        console.log();
+    });
+
+program.parse(process.argv);

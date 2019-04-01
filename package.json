@@ -1,0 +1,26 @@
+{
+  "name": "se.vuessr-cli",
+  "version": "1.0.0",
+  "description": "se.vuessr command-line",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zwlijun/se.vuessr-cli.git"
+  },
+  "keywords": [
+    "se.vuessr"
+  ],
+  "author": "zwlijun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zwlijun/se.vuessr-cli/issues"
+  },
+  "homepage": "https://github.com/zwlijun/se.vuessr-cli#readme",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "download": "^7.1.0"
+  }
+}
