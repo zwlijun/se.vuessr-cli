@@ -1,7 +1,8 @@
 {
   "name": "se.vuessr-cli",
   "version": "1.0.0",
-  "description": "se.vuessr command-line",
+  "private": false,
+  "description": "VUE SSR基础服务框架 - VUE / VUEX / SSR / NODE / EXPRESS / HTTP2 / SPDY",
   "main": "index.js",
   "bin": {
     "vuessr": "./bin/vuessr"
@@ -14,7 +15,16 @@
     "url": "git+https://github.com/zwlijun/se.vuessr-cli.git"
   },
   "keywords": [
-    "se.vuessr"
+    "SE.VUESSR",
+    "VUE",
+    "VUE-SSR",
+    "SSR",
+    "VUESSR",
+    "VUE-SERVER-RENDERER",
+    "EXPRESS",
+    "WORKBOX",
+    "HTTP2",
+    "SPDY"
   ],
   "author": "zwlijun",
   "license": "MIT",

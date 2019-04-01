@@ -23,10 +23,10 @@ program
     }).on("--help", function() {
         console.log("  Examples:");
         console.log();
-        console.log("    $ vuessr init");
-        console.log("    $ vuessr init [version]");
-        console.log("    $ vuessr init [version] -n [poject-name]");
-        console.log("    $ vuessr init [version] -n [poject-name] -p [project-path]");
+        console.log("    a) vuessr init");
+        console.log("    b) vuessr init <GITHUB-PACKAGE-VERSION>");
+        console.log("    c) vuessr init <GITHUB-PACKAGE-VERSION> -n <PROJECT-NAME>");
+        console.log("    d) vuessr init <GITHUB-PACKAGE-VERSION> -n <PROJECT-NAME> -p <PROJECT-PATH>");
         console.log();
     });
 
