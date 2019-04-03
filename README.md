@@ -1,5 +1,5 @@
 # se.vuessr-cli
-se.vuess command-line tool
+se.vuessr command-line tool
 
 # Download & Install
 ```
