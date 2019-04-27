@@ -1,6 +1,12 @@
 # se.vuessr-cli
 se.vuessr command-line tool
 
+
+# se.vuessr
+VUE SSR基础服务框架 - VUE / VUEX / SSR / NODE / EXPRESS / HTTP2 / SPDY
+
+Repository: https://github.com/zwlijun/se.vuessr
+
 # Download & Install
 ```
 npm install se.vuessr-cli -g
