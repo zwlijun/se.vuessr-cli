@@ -1,6 +1,6 @@
 {
   "name": "se.vuessr-cli",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0-alpha.4",
   "private": false,
   "description": "VUE SSR基础服务框架 - VUE / VUEX / SSR / NODE / EXPRESS / HTTP2 / SPDY",
   "main": "index.js",
